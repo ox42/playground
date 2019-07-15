@@ -1,7 +1,7 @@
-# Cloudapps
+# Cloudapps [![CircleCI](https://circleci.com/gh/ox42/playground/tree/master.svg?style=svg)](https://circleci.com/gh/ox42/playground/tree/master)
 
 Play with JS/CSS/HTML so simple it hurts, the web playground that works offline.
-Inspired and cloned from Codepan.
+Inspired and cloned from Codepan. 
 
 ## Browser Support
 
