@@ -15,6 +15,15 @@ Clone this repository and install dependencies by running `yarn`, then:
 - `yarn build`: Build in production mode
 - `yarn lint`: Run eslint
 
+
+## Thanks
+
+<a href="https://www.browserstack.com/">
+  <img src="https://live.browserstack.com/images/opensource/browserstack-logo.svg" alt="BrowserStack Logo" width="192" height="42">
+</a>
+
+Thanks to [BrowserStack](https://www.browserstack.com/) for providing the infrastructure that allows us to test in real browsers!
+
 ## License
 
 The MIT License
