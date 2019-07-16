@@ -90,7 +90,7 @@ export default ({ name, editor, components } = {}) => {
       },
       debounceRunCode: debounce(() => {
         Event.$emit('run')
-      }, 500)
+      }, 1500)
     },
     components: {
       'el-dropdown': Dropdown,

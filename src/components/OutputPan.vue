@@ -232,8 +232,16 @@ export default {
         createElement('script')(proxyConsole)
       const head = headStyle + cloudappsRuntime
 
+      function autoCloseIfNeeded(html) {
+        if (!(new RegExp('</[a-zA-Z0-9]+>$').test(html.trim()))) {
+          return '\n<div style="display: none; visibility: hidden; opacity: 0;"></div>'
+        }
+
+        return ''
+      }
+
       const body =
-        html +
+        html + autoCloseIfNeeded(html) +
         createElement('script')(js)
 
       this.iframe.setHTML({

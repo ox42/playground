@@ -29,7 +29,6 @@
         size="mini">
         Add library
       </el-button>
-      <span class="home-header-left-item changelog-indicator"></span>
     </div>
     <div class="home-header-middle home-header-block pan-toggles">
       <span
@@ -285,11 +284,6 @@
   align-items: center
   .home-header-right-item
     margin-left: 10px
-
-.changelog-indicator
-  display: flex
-  align-items: center
-  height: 28px
 
 .pan-toggles
   display: flex
