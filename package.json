@@ -6,7 +6,7 @@
   "details": "CloudApps is where people prototype front-end apps, you are free to use it offline anytime anywhere. Cloned from CodePan.",
   "main": "src/index.js",
   "homepage": "https://code.cloudapps.io",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "repository": {},
   "scripts": {
     "test": "npm run lint",

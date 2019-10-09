@@ -1,11 +1,11 @@
 # Cloudapps [![CircleCI](https://circleci.com/gh/ox42/playground/tree/master.svg?style=svg)](https://circleci.com/gh/ox42/playground/tree/master)
 
-Play with JS/CSS/HTML so simple it hurts, the web playground that works offline.
-Inspired and cloned from Codepan. 
+Play with JS/CSS/HTML so easily it hurts - this is the web playground that works offline.
+Inspired and cloned from Codepan. Examples include Bootstrap, React, Vue, Svetle and others.
 
 ## Browser Support
 
-We aim to support latest version of Chrome, Safari, Firefox and Microsoft Edge.
+We aim to support the latest versions of Chrome, Safari, Firefox and Microsoft Edge.
 
 ## Development
 
