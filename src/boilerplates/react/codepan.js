@@ -1,15 +1,15 @@
 class App extends React.Component {
   state = {
     count: 0
-  }
+  };
 
   inc = () => this.setState({
     count: this.state.count + 1
-  })
+  });
 
   dec = () => this.setState({
     count: this.state.count - 1
-  })
+  });
 
   render() {
     return (
@@ -22,4 +22,4 @@ class App extends React.Component {
   }
 }
 
-ReactDOM.render(<App />, document.getElementById('app'))
+ReactDOM.render(<App />, document.getElementById('app'));
